@@ -12,6 +12,7 @@
 .flex-container {
   display: flex;
   margin: 16px;
+
 }
 
 .left {
@@ -20,9 +21,11 @@
   margin-right: 30px;
 }
 .featuredImageContainer {
-  padding-right: 20px !important;
+  margin-right: 20px !important;
 }
 
 .right {
   width: 24%;
+
 }
+
