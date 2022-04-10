@@ -14,7 +14,10 @@
   margin: 16px;
 
 }
-
+.featuredImage{
+  object-fit: contain;
+  width: 100%;
+}
 .left {
   width: 76%;
   margin-left: 30px;

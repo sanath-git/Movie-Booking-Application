@@ -1,3 +1,4 @@
+import { Button } from "@material-ui/core";
 import React, { Component } from "react";
 import "./Header.css";
 class Header extends Component {
@@ -9,6 +10,13 @@ class Header extends Component {
           alt="Logo"
           className="logo"
         />
+        {this.props.isDetails ? (
+          <Button variant="contained" color="primary">
+            Book Now
+          </Button>
+        ) : (
+          ""
+        )}
       </div>
     );
   }
